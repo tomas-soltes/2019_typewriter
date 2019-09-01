@@ -1,3 +1,21 @@
 .typewritten {
     font-family: 'Special Elite', cursive;        
 }
+
+.playButton{
+    cursor: pointer;
+    padding: 20px;
+    font-size: 0.8rem;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    border-radius: 0.5rem;  
+    transition: all 0.2s ease-in-out; 
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%,0)
+}
+
+.playButton:hover{
+    transform: translate(-50%,-10%) scale(1.1) ;
+}
